@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+nav {
+  position: left;
+  color: white;
+}
+
+.sidebar {
+  width: 200px;
+  height: 300px;
+  background-color: #f57676;
+  color: white;
+  padding-top: 20px;
+  position: fixed;
+  left:0
+}
+ul {
+  font-size: 20px;
+}
+.overview-link {
+  color: black;
+}
+.history-link {
+  color: black;
+}
+.fun-facts-link {color:black;}
+.cultural-significance-link {color:black;}
+.different-types-link {color:black;}
+
+body {
+  background-color: #ae6464;
+  font-family: Inter, sans-serif;
+  display: flex;
+  padding-left: 230px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding: 80px;
+}
+
+header {
+  color: white;
+  font-size: 40px;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-size:25px;
+}
+
+.divider {
+  border-bottom: 5px solid black;
+  margin: 2px 0;
+}
